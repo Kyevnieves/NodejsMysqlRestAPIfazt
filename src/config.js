@@ -9,7 +9,7 @@ const DB_DATABASE = process.env.DB_DATABASE || companydb;
 
 module.exports = {
   PORT,
-  DB_HOST,
+  //  DB_HOST,
   DB_PORT,
   DB_USER,
   DB_PASSWORD,
