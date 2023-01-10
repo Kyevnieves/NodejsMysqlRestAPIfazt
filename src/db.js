@@ -7,7 +7,7 @@ const {
   DB_PORT,
 } = require("./config");
 const pool = mysql2.createConnection({
-  host: DB_HOST,
+  // host: 'localhost',
   user: DB_USER,
   password: DB_PASSWORD,
   database: DB_DATABASE,
